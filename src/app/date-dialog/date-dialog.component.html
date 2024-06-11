@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-text-center">Dates</ion-title>
+    <ion-buttons slot="start">
+      <ion-button id="cancel-button" (click)="close()" data-testid="cancel-button"> Cancel </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-text-center">
+  <div>
+    <ion-datetime [(ngModel)]="data"></ion-datetime>
+  </div>
+
+  <div>{{ data }}</div>
+</ion-content>
