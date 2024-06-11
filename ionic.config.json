@@ -1,0 +1,7 @@
+{
+  "name": "test-date-modal",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
